@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.controls {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 54px;
+  background-color: var(--decor-gray);
+  border-radius: 30px;
+  transform: translateX(-44px);
+}
+
+.inc {
+  position: relative;
+  border: none;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.inc::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 2px;
+  background-color: var(--text-gray);
+  top: calc(50% - 1px);
+}
+
+.inc::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 10px;
+  width: 2px;
+  background-color: var(--text-gray);
+  left: calc(50% - 1px);
+  top: 0;
+}
+
+.dec {
+  composes: inc;
+}
+
+.button {
+  z-index: 2;
+}
+
+.dec::after {
+  display: none;
+}
+.count {
+  margin: 0 12px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.67;
+}

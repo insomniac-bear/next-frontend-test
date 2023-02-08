@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.list {
+  margin: 0 4px 0 auto;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 4px;
+}
+
+.review {
+  color: var(--text-gray);
+  font-size: 12px;
+  line-height: 1.2;
+}

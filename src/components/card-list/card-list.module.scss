@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, max-content));
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

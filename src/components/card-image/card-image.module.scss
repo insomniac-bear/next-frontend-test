@@ -1,0 +1,13 @@
+.img_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 220px;
+  height: 220px;
+}
+
+.img {
+  object-fit: contain;
+}
