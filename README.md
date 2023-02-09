@@ -11,3 +11,6 @@
 3. NextJS
 4. TypeScript с использованием библиотеки React
 6. Redux Toolkit
+
+### Опубликованная версия:
+* [Опубликованная страница](https://next-frontend-test-6xykp8mmd-insomniac-bear.vercel.app/)
