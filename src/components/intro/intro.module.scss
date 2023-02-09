@@ -1,0 +1,27 @@
+.container {
+  grid-column: 1;
+  grid-row: 1;
+  height: min-content;
+}
+
+.title {
+  position: relative;
+  margin: 0 0 70px 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.18;
+  max-width: 280px;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 16px;
+  bottom: -40px;
+  background-image: url('../../../public/arrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}

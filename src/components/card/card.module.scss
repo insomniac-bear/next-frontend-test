@@ -6,3 +6,13 @@
   border: 1px solid var(--decor-gray);
   height: 100%;
 }
+
+.hit {
+  position: absolute;
+  padding: 5px 20px;
+  color: var(--text-white);
+  font-size: 12px;
+  background-color: var(--decor-red);
+  top: 31px;
+  right: 42px;
+}
